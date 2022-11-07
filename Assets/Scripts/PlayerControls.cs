@@ -28,6 +28,12 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UpdatePosition();
+        UpdateRotation();
+    }
+
+    private void UpdatePosition() 
+    {
         float horizontalThrow = movement.ReadValue<Vector2>().x;
         float verticalThrow = movement.ReadValue<Vector2>().y;
 
@@ -40,5 +46,10 @@ public class PlayerControls : MonoBehaviour
         float clampedYPos = Mathf.Clamp(newYPos, -yRange, yRange);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
+    }
+
+    private void UpdateRotation() 
+    {
+        transform.localRotation = Quaternion.Euler(-30f, 30f, 0f);
     }
 }
