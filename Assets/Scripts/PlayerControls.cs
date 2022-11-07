@@ -7,6 +7,8 @@ public class PlayerControls : MonoBehaviour
 {
     [SerializeField] InputAction movement;
     [SerializeField] float controlSpeed = 30f;
+    [SerializeField] float xRange = 5f;
+    [SerializeField] float yRange = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +32,13 @@ public class PlayerControls : MonoBehaviour
         float verticalThrow = movement.ReadValue<Vector2>().y;
 
         float xOffset = horizontalThrow * Time.deltaTime * controlSpeed;
+        float newXPos = transform.localPosition.x + xOffset;
+        float clampedXPos = Mathf.Clamp(newXPos, -xRange, xRange);
+
         float yOffset = verticalThrow * Time.deltaTime * controlSpeed;
+        float newYPos = transform.localPosition.y + yOffset;
+        float clampedYPos = Mathf.Clamp(newYPos, -yRange, yRange);
 
-        print("dbg x=" + horizontalThrow + ",y = " + verticalThrow);
-
-        transform.localPosition = new Vector3(transform.localPosition.x + xOffset, transform.localPosition.y + yOffset, transform.localPosition.z);
+        transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
 }
