@@ -497,11 +497,6 @@ Transform:
   m_Father: {fileID: 1446173882}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5, y: 0, z: 0}
---- !u!1 &1155704233 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5023418903943350605, guid: f972ec6821b2a42bc94e8603d4315a61, type: 3}
-  m_PrefabInstance: {fileID: 8475416781377024800}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1446173880
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,70 +631,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5017792463584555445, guid: f972ec6821b2a42bc94e8603d4315a61, type: 3}
   m_PrefabInstance: {fileID: 8475416781377024800}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3475790457647809174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155704233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0597df89b37c244d89bff655ea38ea3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movement:
-    m_Name: Movement
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: b3254004-6ddf-421e-aa89-5cbe61f1b95c
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: 95df117f-d31b-4eda-8158-c043af2fe839
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: 7254843d-858e-4351-babd-13f2636083ce
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: b6ccb66b-7fc9-4508-9926-6bb419e93125
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: 9cc26210-99ff-47ac-9e06-8bfb0d55376c
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 2a5cfa04-d577-465d-9967-430888f77a10
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    m_Flags: 0
-  controlSpeed: 30
-  xRange: 6
-  yRange: 4
 --- !u!1001 &8475416781377024800
 PrefabInstance:
   m_ObjectHideFlags: 0
