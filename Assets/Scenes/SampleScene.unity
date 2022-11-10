@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!198 &165112232 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3602698185346902485, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-  m_PrefabInstance: {fileID: 2390902453327370162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &280663079
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,11 +418,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2390902454029044491, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
   m_PrefabInstance: {fileID: 2390902453327370162}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1776599998 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 9089123771857834651, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-  m_PrefabInstance: {fileID: 2390902453327370162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1921981076
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,42 +546,6 @@ PrefabInstance:
     - target: {fileID: 2390902454029044490, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
       propertyPath: m_Name
       value: Player Rig
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_Id
-      value: 3ab7da5b-1224-4f4b-b9b2-1a328e546670
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_Name
-      value: Fire
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: lasers.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: lasers.Array.data[0]
-      value: 
-      objectReference: {fileID: 1776599998}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: lasers.Array.data[1]
-      value: 
-      objectReference: {fileID: 165112232}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 28d25999-f5de-425e-a92b-7ce34a40b227
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Keyboard>/r
-      objectReference: {fileID: 0}
-    - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: fireAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Fire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
