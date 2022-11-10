@@ -123,9 +123,9 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &165112230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4729223580825595236, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+--- !u!198 &165112232 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3602698185346902485, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
   m_PrefabInstance: {fileID: 2390902453327370162}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &280663079
@@ -423,9 +423,9 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2390902454029044491, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
   m_PrefabInstance: {fileID: 2390902453327370162}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1776599995 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1044207056743847466, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+--- !u!198 &1776599998 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9089123771857834651, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
   m_PrefabInstance: {fileID: 2390902453327370162}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1921981076
@@ -572,11 +572,11 @@ PrefabInstance:
     - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
       propertyPath: lasers.Array.data[0]
       value: 
-      objectReference: {fileID: 1776599995}
+      objectReference: {fileID: 1776599998}
     - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
       propertyPath: lasers.Array.data[1]
       value: 
-      objectReference: {fileID: 165112230}
+      objectReference: {fileID: 165112232}
     - target: {fileID: 7245437153950754308, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
       propertyPath: fireAction.m_SingletonActionBindings.Array.size
       value: 1
