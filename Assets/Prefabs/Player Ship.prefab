@@ -739,6 +739,7 @@ GameObject:
   - component: {fileID: 5027609634534892341}
   - component: {fileID: 5037226350939098887}
   - component: {fileID: 3475790457647809174}
+  - component: {fileID: 2662163506427484085}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -875,13 +876,35 @@ MonoBehaviour:
       m_Action: Movement
       m_Flags: 8
     m_Flags: 0
+  fireAction:
+    m_Name: Fire
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4b5ff75f-d9aa-462c-946f-1483e84e0216
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   controlSpeed: 30
   xRange: 6
   yRange: 4
+  lasers: []
   positionPitchFactor: -2
-  controlPitchFactor: -15
   positionYawFactor: 2
+  controlPitchFactor: -15
   controlRollFactor: -20
+--- !u!114 &2662163506427484085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023418903943350605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35f04ce4c672415f9d243cfb314b06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5082951785031553783
 GameObject:
   m_ObjectHideFlags: 0
