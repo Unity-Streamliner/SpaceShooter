@@ -15,10 +15,7 @@ public class CollisionHandler : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log($"{this.name} **Triggered by** {other.gameObject.name}");
-        if (other.gameObject.tag == "Enemy") 
-        {
-            StartCrushSequence();
-        }
+        StartCrushSequence();
     }
 
     private void StartCrushSequence()
