@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &44491126 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+  m_PrefabInstance: {fileID: 2390902453327370162}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &280663079
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,5 +676,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088865358493184807, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+      propertyPath: crashVFX
+      value: 
+      objectReference: {fileID: 44491126}
+    - target: {fileID: 8088865358493184807, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
+      propertyPath: crushVFX
+      value: 
+      objectReference: {fileID: 44491126}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
