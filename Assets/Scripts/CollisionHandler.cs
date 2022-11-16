@@ -10,13 +10,11 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem crashVFX;
     void OnCollisionEnter(Collision other)
     {
-        Debug.Log(this.name + "--Collided with--" + other.gameObject.name);
-        
+        //Debug.Log(this.name + "--Collided with--" + other.gameObject.name);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log($"{this.name} **Triggered by** {other.gameObject.name}");
         StartCrashSequence();
     }
 
