@@ -6,13 +6,14 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathVFX;
     [SerializeField] GameObject hitVFX;
-    [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 15;
     [SerializeField] int hitPoints = 4;
 
     ScoreBoard scoreBoard;
+    Transform parent;
 
     void Start() {
+        parent = GameObject.FindWithTag("SpawnAtRuntime").transform;
         scoreBoard = FindObjectOfType<ScoreBoard>();
         Rigidbody rb = gameObject.AddComponent<Rigidbody>();
         rb.useGravity = false;
