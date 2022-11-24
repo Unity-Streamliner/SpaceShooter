@@ -579,7 +579,11 @@ PlayableDirector:
     m_References:
     - 8aa21d1d656474f958fd3420fd511e77: {fileID: 1283569313}
     - 685d353fbd0c04374b5cec3ae8828133: {fileID: 0}
+    - 494d538f7db334194b0a5a61ffb818b2: {fileID: 4253357619454580396}
+    - 87e3bb2fe296a40f2982592ab409c5a6: {fileID: 4253357619454580396}
     - c06660f2e7c494dc5b634edda5bffc03: {fileID: 1584883449}
+    - d0463bb106ccf483db6fea899a1fc3e2: {fileID: 4253357619454580396}
+    - 969be7ef32a0d498286789e1d6f9e407: {fileID: 4253357619454580396}
 --- !u!95 &1921981079
 Animator:
   serializedVersion: 4
@@ -847,3 +851,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68d09f881d7ad4c65b51d3c634bf96de, type: 3}
+--- !u!1 &4253357619454580396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8883443627618260725, guid: 68d09f881d7ad4c65b51d3c634bf96de, type: 3}
+  m_PrefabInstance: {fileID: 4253357619454580395}
+  m_PrefabAsset: {fileID: 0}
