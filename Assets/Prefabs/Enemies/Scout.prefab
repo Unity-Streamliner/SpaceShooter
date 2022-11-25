@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 2290022586534816083}
   - component: {fileID: 2297406571384163175}
   - component: {fileID: 6005798165993072478}
+  - component: {fileID: -7955809738146442766}
   m_Layer: 0
   m_Name: Scout
   m_TagString: Untagged
@@ -461,6 +462,19 @@ MonoBehaviour:
   hitVFX: {fileID: 4179615541051605480, guid: fafbfa1341dba4a65b1de7214edac693, type: 3}
   scorePerHit: 10
   hitPoints: 1
+--- !u!65 &-7955809738146442766
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2284639685263212595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.865558, y: 4.241986, z: 11.309124}
+  m_Center: {x: 0.00000047683716, y: -0.000006198883, z: -0.0000011920929}
 --- !u!1 &2788880629624094128
 GameObject:
   m_ObjectHideFlags: 0

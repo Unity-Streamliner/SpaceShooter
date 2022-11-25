@@ -738,6 +738,7 @@ GameObject:
   - component: {fileID: 7611018730629112482}
   - component: {fileID: 7619798122986569480}
   - component: {fileID: 5311119419456943272}
+  - component: {fileID: -3068233245218734808}
   m_Layer: 0
   m_Name: Hyper
   m_TagString: Untagged
@@ -827,6 +828,19 @@ MonoBehaviour:
   hitVFX: {fileID: 4179615541051605480, guid: fafbfa1341dba4a65b1de7214edac693, type: 3}
   scorePerHit: 500
   hitPoints: 20
+--- !u!65 &-3068233245218734808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7632628143426757436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.60827, y: 1.7607899, z: 12.307949}
+  m_Center: {x: 0, y: -0.00001564622, z: 0}
 --- !u!1 &7682693160323637466
 GameObject:
   m_ObjectHideFlags: 0

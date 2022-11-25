@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 8998189507663382842}
   - component: {fileID: 6573860068934860272}
   - component: {fileID: 2278752345681760048}
+  - component: {fileID: -3004440916780587642}
   m_Layer: 0
   m_Name: Defender
   m_TagString: Untagged
@@ -506,6 +507,19 @@ MonoBehaviour:
   hitVFX: {fileID: 4179615541051605480, guid: fafbfa1341dba4a65b1de7214edac693, type: 3}
   scorePerHit: 50
   hitPoints: 6
+--- !u!65 &-3004440916780587642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628564170811579429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.85927, y: 2.496461, z: 10.716055}
+  m_Center: {x: 0.00000023841858, y: -0.000001013279, z: 0}
 --- !u!1 &4647743187552383609
 GameObject:
   m_ObjectHideFlags: 0
