@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!198 &44491126 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-  m_PrefabInstance: {fileID: 2390902453327370162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &285736902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1000,22 +995,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
-    - target: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3045879536181505925, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: EmissionModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8088865358493184807, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: crashVFX
-      value: 
-      objectReference: {fileID: 44491126}
-    - target: {fileID: 8088865358493184807, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
-      propertyPath: crushVFX
-      value: 
-      objectReference: {fileID: 44491126}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49194e4a0038a4a9eb3534a9cf205cb7, type: 3}
 --- !u!1001 &4253357619454580395
@@ -1140,3 +1119,60 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8883443627618260725, guid: 68d09f881d7ad4c65b51d3c634bf96de, type: 3}
   m_PrefabInstance: {fileID: 4253357619454580395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6144763978753570875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995467818637458514, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905938906029944444, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
+      propertyPath: m_Name
+      value: Post Processing
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a6e5c471a318438cac10fedbf31262e, type: 3}
